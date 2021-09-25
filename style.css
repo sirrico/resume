@@ -1,0 +1,79 @@
+body{
+	font: 12px Roboto, Arial, sans-serif;
+	background-color: #ebecfc;
+}
+
+img{
+	max-height:200px;
+	max-width:200px;
+}
+
+.row{
+		display: inline-flex;
+ gap:100px;
+flex-wrap:wrap;
+  justify-content: center;
+}
+
+.hero{
+	text-align:center-left;
+	margin-bottom:30px;
+}
+
+.contact{
+	float:left;
+}
+
+.references{
+	float:right;
+}
+
+.collapsible {
+  background-color: #d1d2e8;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin:4px;
+}
+
+.active, .collapsible:hover {
+  background-color: #afb0d9;
+  color: white;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #eeeef6;
+}
+
+.collapsibleinline {
+  background-color: #d1d2e8;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin:4px;
+}
+
+.active, .collapsibleinline:hover {
+  background-color: #afb0d9;
+  color: white;
+}
+
+.contentinline {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #eeeef6;
+  max-width:100%;
+}
