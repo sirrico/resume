@@ -8,16 +8,20 @@ img{
 	max-width:200px;
 }
 
+
 .row{
 		display: inline-flex;
- gap:100px;
-flex-wrap:wrap;
-  justify-content: center;
+    gap:50px;
+    font-size:1.5em;
+    flex-wrap:wrap;
+    justify-content: left;
 }
+
 
 .hero{
 	text-align:center-left;
 	margin-bottom:30px;
+  font-size:1.5em;
 }
 
 .contact{
@@ -39,6 +43,7 @@ flex-wrap:wrap;
   outline: none;
   font-size: 15px;
   margin:4px;
+  font-size:1.5em;
 }
 
 .active, .collapsible:hover {
@@ -48,6 +53,7 @@ flex-wrap:wrap;
 
 .content {
   padding: 0 18px;
+  font-size:1.5em;
   display: none;
   overflow: hidden;
   background-color: #eeeef6;
@@ -76,4 +82,5 @@ flex-wrap:wrap;
   overflow: hidden;
   background-color: #eeeef6;
   max-width:100%;
+  font-size:1.5em;
 }
