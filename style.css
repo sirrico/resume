@@ -94,7 +94,11 @@ img{
   }
   .row{
     display: inline-flex;
-    gap:25px;
+    gap:15px;
 	}
+  .certifications{
+	  display:flex;
+	  justify-content: center;
+		}
 }
 
