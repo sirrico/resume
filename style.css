@@ -85,12 +85,16 @@ img{
   font-size:1.25em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
   h1{
     text-align:center;
   }
   h2{
     text-align:center;
   }
+  .row{
+    display: inline-flex;
+    gap:25px;
+	}
 }
 
